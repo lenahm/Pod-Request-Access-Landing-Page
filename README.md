@@ -7,6 +7,12 @@ This project is my solution to the **Pod Request Access Landing Page Challenge**
 
 The goal of the challenge was to build a responsive landing page as close as possible to the provided design, including a clean layout, typography, and hover states.
 
+## Screenshots
+
+![Screenshot of the Pod Request Access Landing Page Desktop Version](./screenshot1.png)
+
+![Screenshot of the Pod Request Access Landing Page Smartphone Version](./screenshot2.png)
+
 ## Links
 
 - Live Demo: The project was not deployed and was developed locally using the Live Server extension in Visual Studio Code.
