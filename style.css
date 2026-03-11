@@ -1,5 +1,6 @@
 :root {
   --green: #54e6af;
+  --light-green: #b3ffe2;
   --blue-950: #121725;
   --blue-900: #2c344b;
   --blue-600: #5a668a;
@@ -15,7 +16,97 @@
 }
 
 body {
-  font-family: "Chivo", sans-serif;
   background-color: var(--blue-950);
+  font-family: "Chivo", sans-serif;
   color: var(--blue-300);
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 8rem auto;
+  background: url("/assets/image-host.jpg") no-repeat right;
+}
+
+.dots {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+}
+
+main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 5rem;
+  padding: 5rem 3.5rem 0 0;
+  background-color: var(--blue-950);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: var(--green);
+}
+
+p {
+  padding-right: 15rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.4;
+}
+
+.input-group {
+  display: flex;
+  width: 400px;
+  background: var(--blue-900);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.input-group input {
+  flex: 1;
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 12px 20px;
+  color: var(--white);
+}
+
+.input-group input::placeholder {
+  color: var(--blue-300);
+  font-weight: 600;
+}
+
+.input-group button {
+  cursor: pointer;
+  outline: none;
+  background: var(--green);
+  border: none;
+  border-radius: 25px;
+  padding: 12px 20px;
+  color: var(--blue-950);
+  font-weight: 600;
+}
+
+.input-group button:hover {
+  background: var(--light-green);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    padding-left: 2rem;
+  }
 }
