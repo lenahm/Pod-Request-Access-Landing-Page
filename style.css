@@ -1,0 +1,21 @@
+:root {
+  --green: #54e6af;
+  --blue-950: #121725;
+  --blue-900: #2c344b;
+  --blue-600: #5a668a;
+  --blue-300: #c2cbe5;
+  --white: #ffffff;
+  --red: #fb3e3e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  background-color: var(--blue-950);
+  color: var(--blue-300);
+}
